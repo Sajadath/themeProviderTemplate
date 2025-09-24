@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary-background: var(--primary-background);
+  --color-primary-text: var(--primary-text);
+}
+
+.dark {
+  --primary-background: #1a1a1a;
+  --primary-text: #f0f0f0;
+}
+
+.light {
+  --primary-background: #ffffff;
+  --primary-text: #000000;
+}
+.colorful {
+  --primary-background: #ffcc00;
+  --primary-text: #333333;
+}
